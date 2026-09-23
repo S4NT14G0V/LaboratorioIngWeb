@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLogistics" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" fill="url(#bgLogistics)" rx="12" />
+
+  <!-- Grid -->
+  <g stroke="#27272a" stroke-width="0.5" stroke-dasharray="4 4">
+    <line x1="60" y1="0" x2="60" y2="360" />
+    <line x1="180" y1="0" x2="180" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="420" y1="0" x2="420" y2="360" />
+    <line x1="540" y1="0" x2="540" y2="360" />
+    <line x1="0" y1="90" x2="600" y2="90" />
+    <line x1="0" y1="180" x2="600" y2="180" />
+    <line x1="0" y1="270" x2="600" y2="270" />
+  </g>
+
+  <!-- Window Frame -->
+  <rect x="60" y="45" width="480" height="270" rx="8" fill="#141416" stroke="#27272a" stroke-width="1.5" />
+  <rect x="60" y="45" width="480" height="34" rx="8" fill="#0d0d0f" />
+  <circle cx="85" cy="62" r="5" fill="#ef4444" />
+  <circle cx="102" cy="62" r="5" fill="#f59e0b" />
+  <circle cx="119" cy="62" r="5" fill="#10b981" />
+  <text x="300" y="67" fill="#71717a" font-family="monospace" font-size="11" text-anchor="middle">logistics-api · Spring Boot · SSE Events</text>
+
+  <!-- Left Warehouse Node -->
+  <g transform="translate(100, 120)">
+    <rect x="0" y="0" width="110" height="85" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="1" />
+    <text x="55" y="28" fill="#fbbf24" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">BODEGA A</text>
+    <rect x="20" y="40" width="70" height="6" rx="2" fill="#3f3f46" />
+    <rect x="25" y="52" width="60" height="6" rx="2" fill="#27272a" />
+    <circle cx="55" cy="72" r="3" fill="#10b981" />
+  </g>
+
+  <!-- Connecting SSE Line with Pulses -->
+  <path d="M 215 162 L 385 162" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6 4" />
+  
+  <!-- In Transit Package -->
+  <g transform="translate(280, 142)">
+    <rect x="0" y="0" width="40" height="40" rx="4" fill="#27272a" stroke="#fbbf24" stroke-width="1.5" />
+    <path d="M 10 10 L 30 10 L 30 30 L 10 30 Z" stroke="#fbbf24" stroke-width="0.8" fill="none" />
+    <line x1="20" y1="10" x2="20" y2="30" stroke="#fbbf24" stroke-width="1" />
+    <text x="20" y="52" fill="#a1a1aa" font-family="monospace" font-size="9" text-anchor="middle">SSE Sync</text>
+  </g>
+
+  <!-- Right Warehouse Node -->
+  <g transform="translate(390, 120)">
+    <rect x="0" y="0" width="110" height="85" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="1" />
+    <text x="55" y="28" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">BODEGA B</text>
+    <rect x="20" y="40" width="70" height="6" rx="2" fill="#3f3f46" />
+    <rect x="25" y="52" width="60" height="6" rx="2" fill="#27272a" />
+    <circle cx="55" cy="72" r="3" fill="#10b981" />
+  </g>
+
+  <!-- Terminal log output at bottom -->
+  <rect x="100" y="225" width="400" height="65" rx="5" fill="#09090b" stroke="#27272a" stroke-width="1" />
+  <text x="115" y="245" fill="#22c55e" font-family="monospace" font-size="10">JWT Auth: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...</text>
+  <text x="115" y="262" fill="#a1a1aa" font-family="monospace" font-size="10">[SSE EVENT] Package #PKG-8492 status updated to IN_TRANSIT</text>
+  <text x="115" y="278" fill="#fbbf24" font-family="monospace" font-size="10">[DISPATCH] Route calculated: 45 min ETA - Driver #09</text>
+</svg>
