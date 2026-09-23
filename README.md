@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 1. Propósito del Proyecto
+## 1. Propósito del Proyecto
 
 El objetivo de este proyecto es interiorizar el proceso de desarrollo frontend moderno utilizando **Next.js**, **React**, **TypeScript** y **Tailwind CSS**, partiendo de la maqueta y especificaciones de un diseño en **Figma** (estructura de 3 columnas: Menú Izquierdo Fijo, Contenido Central scrolleable y Menú Derecho Fijo).
 
@@ -14,14 +14,14 @@ La aplicación preserva una identidad visual de ingeniería de software (paleta 
 
 ---
 
-## 🚀 2. Enlace de Despliegue en Vercel
+## 2. Enlace de Despliegue en Vercel
 
 - **URL de Producción:** [https://santiago-trespalacios.vercel.app](https://santiago-trespalacios.vercel.app)
-- **Repositorio de GitHub:** [https://github.com/S4NT14G0V/s4nt14g0v.github.io](https://github.com/S4NT14G0V/s4nt14g0v.github.io)
+- **Repositorio de GitHub:** [https://github.com/202602-Ingeniria-Web-Udea/santiago-trespalacios-bolivar-portafolio](https://github.com/202602-Ingeniria-Web-Udea/santiago-trespalacios-bolivar-portafolio)
 
 ---
 
-## 🛠️ 3. Tecnologías y Herramientas
+## 3. Tecnologías y Herramientas
 
 - **Framework:** [Next.js 16](https://nextjs.org/) (App Router & Turbopack)
 - **Biblioteca UI:** [React 19](https://react.dev/)
@@ -33,7 +33,7 @@ La aplicación preserva una identidad visual de ingeniería de software (paleta 
 
 ---
 
-## 🧱 4. Arquitectura y Metodología Atomic Design
+## 4. Arquitectura y Metodología Atomic Design
 
 El proyecto está organizado rigurosamente bajo la metodología de **Atomic Design** en `src/components/`:
 
@@ -89,7 +89,7 @@ src/
 
 ---
 
-## 📑 5. Cumplimiento de Secciones (Diseño Figma)
+## 5. Cumplimiento de Secciones (Diseño Figma)
 
 ### 1. Menú Izquierdo (Fijo) — `LeftSidebar.tsx`
 - **Información Personal:** Foto de perfil del estudiante, nombre completo (*Santiago Trespalacios Bolívar*) y título profesional (*Estudiante de Ingeniería de Sistemas / Full Stack Developer*).
@@ -139,7 +139,7 @@ src/
 
 ---
 
-## 📱 6. Responsividad y Adaptabilidad
+## 6. Responsividad y Adaptabilidad
 
 - **Desktop (≥ 1024px):** Layout de 3 columnas fijas/sticky con proporciones optimizadas para pantallas estándar y ultrapanorámicas.
 - **Móvil y Tablet (< 1024px):**
@@ -148,7 +148,7 @@ src/
 
 ---
 
-## 💻 7. Ejecución Local
+## 7. Ejecución Local
 
 ### Prerrequisitos
 - Node.js versión 20 o superior (o [Bun](https://bun.sh/))
@@ -187,7 +187,7 @@ src/
 
 ---
 
-## 📝 8. Criterios de Calificación Atendidos
+## 8. Criterios de Calificación Atendidos
 
 - **Funcionalidad (40%):** 
   - Todo el flujo opera de forma óptima sin errores de consola ni advertencias.
@@ -208,3 +208,29 @@ src/
   - Modales enriquecidos con arquitectura de proyectos.
 - **Documentación (10%):**
   - `README.md` exhaustivo y comentarios descriptivos en el código fuente.
+
+## 9. Evidencias
+
+A continuación se presentan las capturas de pantalla que evidencian la implementación, diseño, responsividad y temas de la aplicación:
+
+### Modo Claro (Light Mode)
+
+| Vista Principal (Hero / Perfil) | Stack Tecnológico & Educación | Proyectos / Portafolio |
+| :---: | :---: | :---: |
+| ![Vista Principal Claro](docs/first-light.png) | ![Stack y Educación Claro](docs/stack-educ-light.png) | ![Proyectos Claro](docs/projects-light.png) |
+
+---
+
+### Modo Oscuro (Dark Mode)
+
+| Vista Principal (Hero / Perfil) | Stack Tecnológico & Educación | Proyectos / Portafolio |
+| :---: | :---: | :---: |
+| ![Vista Principal Oscuro](docs/first-dark.png) | ![Stack y Educación Oscuro](docs/stack-educ-dark.png) | ![Proyectos Oscuro](docs/projects-dark.png) |
+
+---
+
+### Vista Móvil (Mobile View)
+
+| Vista Principal Móvil | Stack & Educación Móvil | Proyectos Móvil |
+| :---: | :---: | :---: |
+| ![Principal Móvil](docs/first-mobile.png) | ![Stack Móvil](docs/stack-educ-mobile.png) | ![Proyectos Móvil](docs/projects-mobile.png) |
