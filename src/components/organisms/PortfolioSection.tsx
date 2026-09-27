@@ -107,10 +107,12 @@ export default function PortfolioSection({ className = "" }: PortfolioSectionPro
               {PROJECTS_DATA.map((project, idx) => (
                 <ProjectCard
                   key={project.id}
+                  id={project.id}
                   index={idx}
                   title={t(project.titleKey)}
                   description={t(project.summaryKey)}
                   tags={project.tags}
+                  video={project.video}
                   learnMoreLabel={t("portfolio.learn_more")}
                   onLearnMore={() => handleOpenDetail(project)}
                   className={idx > 0 ? "-ml-6 sm:-ml-10" : ""}

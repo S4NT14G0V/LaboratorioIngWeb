@@ -42,6 +42,7 @@ export interface ProjectItem {
   titleKey: string;
   summaryKey: string;
   image: string;
+  video?: string;
   tags: string[];
   pointsKeys: string[];
   links: {
@@ -188,6 +189,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     titleKey: "projects.facturacion.title",
     summaryKey: "projects.facturacion.summary",
     image: "/projects/facturacion.svg",
+    video: "/facturacion.mp4",
     tags: ["Java", "Spring Boot", "React", "TypeScript", "DIAN XML/CUFE"],
     pointsKeys: [
       "section.work.value.first.points.p1",
@@ -208,6 +210,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     titleKey: "projects.logistics.title",
     summaryKey: "projects.logistics.summary",
     image: "/projects/logistics.svg",
+    video: "/logistics.mp4",
     tags: ["Java", "Spring Boot", "JWT", "SSE", "REST API"],
     pointsKeys: [
       "section.work.value.second.points.p1",
@@ -233,6 +236,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     titleKey: "projects.fitness.title",
     summaryKey: "projects.fitness.summary",
     image: "/projects/fitness.svg",
+    video: "/syncactivity.mp4",
     tags: ["React Native", "Python", "Django", "Appium", "GPS Live"],
     pointsKeys: [
       "section.work.value.third.points.p1",
@@ -254,6 +258,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     titleKey: "projects.school.title",
     summaryKey: "projects.school.summary",
     image: "/projects/school.svg",
+    video: "/school.mp4",
     tags: ["React", "Spring Boot", "PostgreSQL", "RBAC Auth"],
     pointsKeys: [
       "section.work.value.fourth.points.p1",

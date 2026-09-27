@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --color-bg: #faf7f2;
+  --color-bg: #ffffff;
   --color-text: #171717;
   --color-text-muted: #a3a3a3;
   --color-line: #d4d4d4;
@@ -355,3 +355,4 @@ body {
   scrollbar-width: thin;
   scrollbar-color: var(--color-line) transparent;
 }
+
